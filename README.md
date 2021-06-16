@@ -14,4 +14,3 @@ python PayloadGenrator.py | format.c
 #and boom we will get the root shell of the owner of the file 
 #whoami
 root
-
