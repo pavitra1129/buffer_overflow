@@ -12,7 +12,7 @@ echo we are all done!
 example of PayloadGenerator.py:-
 nano PayloadGenrator.py (i will edit it as my c program is)
 python PayloadGenrator.py | format.c
-# and boom we will get the root shell of the owner of the file 
-# whoami
+#and boom we will get the root shell of the owner of the file 
+#whoami
 root
-#
+
